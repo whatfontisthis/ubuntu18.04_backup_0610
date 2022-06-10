@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find stella_slam)/launch/stella_slam.launch"/>
+    <node pkg="practice" type="wall_follower.py" name="wall_follower" output="screen"/>
+</launch>
